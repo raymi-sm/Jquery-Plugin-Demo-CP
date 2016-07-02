@@ -1,0 +1,29 @@
+.js-ftoggle {
+  padding: 0px;
+  max-width: 500px;
+  .js-fchild {
+    display: block;
+    margin-bottom: 15px;
+    border-bottom: solid 1px #ddd;
+    cursor: pointer;
+    overflow: hidden;
+    height: auto;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  .title {
+    padding: 15px;
+    background: #efefef;
+  }
+  
+  .content {
+    overflow: hidden;
+    padding: 15px;
+    background: #ccc;
+  }
+  
+  .content-inner {
+    background: #eee;
+  }
+}
